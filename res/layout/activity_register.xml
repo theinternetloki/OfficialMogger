@@ -47,26 +47,6 @@
         android:ems="10"
         android:inputType="textPersonName" />
 
-    <EditText
-        android:id="@+id/editText4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:layout_below="@+id/textView4"
-        android:ems="10"
-        android:inputType="textPostalAddress" />
-
-    <EditText
-        android:id="@+id/editText5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:layout_below="@+id/textView5"
-        android:ems="10"
-        android:inputType="date" />
-
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
@@ -99,7 +79,7 @@
         android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/editText5"
+        android:layout_below="@+id/editText3"
         android:layout_marginTop="20dp"
         android:layout_toLeftOf="@+id/textView3"
         android:text="Submit" />
@@ -111,23 +91,5 @@
         android:layout_above="@+id/button3"
         android:layout_toRightOf="@+id/textView3"
         android:text="Clear" />
-
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/editText4"
-        android:layout_centerHorizontal="true"
-        android:text="Birthday"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/editText3"
-        android:layout_centerHorizontal="true"
-        android:text="Street Address"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
 
 </RelativeLayout>

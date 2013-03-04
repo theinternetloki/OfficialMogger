@@ -41,8 +41,6 @@ public class Register extends Activity {
         inputFullName = (EditText) findViewById(R.id.editText1);
         inputEmail = (EditText) findViewById(R.id.editText2);
         inputPassword = (EditText) findViewById(R.id.editText3);
-        final EditText address=(EditText) findViewById(R.id.editText4);
-        final EditText birth=(EditText) findViewById(R.id.editText5);        
         btnRegister = (Button) findViewById(R.id.button1);
         btnLinkToLogin = (Button) findViewById(R.id.button3);
  
@@ -52,10 +50,8 @@ public class Register extends Activity {
                 String name = inputFullName.getText().toString();
                 String email = inputEmail.getText().toString();
                 String password = inputPassword.getText().toString();
-                String saddress = address.getText().toString();
-                String birthyr = birth.getText().toString();
                 UserFunctions userFunction = new UserFunctions();
-                JSONObject json = userFunction.registerUser(name, email, password, saddress, birthyr);
+                JSONObject json = userFunction.registerUser(name, email, password);
  
                 // check for login response
                 try {
