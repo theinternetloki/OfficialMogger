@@ -41,6 +41,7 @@ public class Register extends Activity {
         inputFullName = (EditText) findViewById(R.id.editText1);
         inputEmail = (EditText) findViewById(R.id.editText2);
         inputPassword = (EditText) findViewById(R.id.editText3);
+        registerErrorMsg = (TextView) findViewById(R.id.textView4);
         btnRegister = (Button) findViewById(R.id.button1);
         btnLinkToLogin = (Button) findViewById(R.id.button3);
  
